@@ -10,6 +10,8 @@ A migration deve realizar o seguinte comando: `update-database` em `Console do G
 Caso não ache, siga o passo a passo a seguir:
 - Vá até à `Ferramentas` > `Gerenciado de Pacotes do Nuget` > `Console do Gerenciado de Pacotes`.
 
+Agora você pode executar o `update-database`
+
 #
 
 ### Caso use o Visual Studio Code, realize os seguintes comandos:
