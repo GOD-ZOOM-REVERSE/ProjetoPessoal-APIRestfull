@@ -5,7 +5,12 @@
 
 Primeiramente, vocês terão que fazer uma migration para o banco de dados MySQL. O Server: localhost; usuarioId: root. Se houver senha, coloque no arquivo `appsettings.json` em `ConnectionStrings:BaseConnection`.
 
-A migration deve realizar o seguinte comando: `update-database`.
+A migration deve realizar o seguinte comando: `update-database` em `Console do Gerenciado de Pacotes`.
+
+Caso não ache, siga o passo a passo a seguir:
+- Vá até à `Ferramentas` > `Gerenciado de Pacotes do Nuget` > `Console do Gerenciado de Pacotes`.
+
+#
 
 ### Caso use o Visual Studio Code, realize os seguintes comandos:
 ```
