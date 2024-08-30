@@ -26,3 +26,22 @@ dotnet run
 > [!WARNING]
 > Certifique-se de que o `appsettings.json` está correto!
 > Se houver senha, coloque o `pwd:{senha}`.
+
+# Gerando Token
+
+### Aqui, você irá gerar o token pelo connect do IdentityServer
+
+Quando você executar o projeto, entre na rota `https://localhost:44310/swagger`.
+Se tentar acessar uma Rota da API sem um token Bearer, você irá receber `401 (Unnauthorized)`.
+
+Para resolver, faça o seguinte:
+- Abra o Postman;
+- Vá até a aba `Authorization`;
+- coloque `OAuth2.0`;
+- Desce um pouco e verá um formulário. Siga passo a passo agora:
+  - no `Granty Type` coloque `Client Credentials`;
+  - em `Access Token URL` coloque: `https://localhost:44310/connect/token`;
+  - `Client ID` e `Client Secret` coloque: `client` e `my_super_secret`, respectivamente;
+  - por fim, em `Scope` coloque: `api1`.
+
+O Token gerado, copie e, no swagger, cole com o Bearer [space] na frente. 
