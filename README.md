@@ -44,4 +44,7 @@ Para resolver, faça o seguinte:
   - `Client ID` e `Client Secret` coloque: `client` e `my_super_secret`, respectivamente;
   - por fim, em `Scope` coloque: `api1`.
 
-O Token gerado, copie e, no swagger, cole com o Bearer [space] na frente. 
+O Token gerado, copie e, no swagger, cole com o Bearer [space] na frente.
+
+> [!NOTE]
+> Futuramente colocarei uma api que gerará um token de acesso para mais facibilidade.
