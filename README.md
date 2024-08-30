@@ -16,7 +16,7 @@ Agora você pode executar o `update-database`
 
 ### Caso use o Visual Studio Code, realize os seguintes comandos:
 ```
-git clone [https://github.com/GOD-ZOOM-REVERSE/ProjetoPessoal-APIRestfull.git] \
+git clone https://github.com/GOD-ZOOM-REVERSE/ProjetoPessoal-APIRestfull.git \
 cd ProjetoPessoal-APIRestfull \
 dotnet tool install --global dotnet-ef \
 dotnet ef database update \
